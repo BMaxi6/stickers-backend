@@ -1,6 +1,7 @@
 const fs = require('fs');
 const stickers = require('./stickers-countries.json')
 const bodyParser = require('body-parser')
+var cors = require('cors')
 
 const express = require('express');
 const app = express();
@@ -14,6 +15,7 @@ app.set('json spaces', 2)
  
 //Middleware
 app.use(morgan('dev'));
+app.use(cors());
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 app.use(bodyParser.json())
