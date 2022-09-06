@@ -1,0 +1,276 @@
+{
+  "user-token": "aefj5quwv3",
+  "data":{
+    "countries": [
+        {
+          "id": "c1",
+          "name": "Argentina",
+          "items": [
+            {
+              "stickerId": "1",
+              "name": "Escudo",
+              "cant": "0"
+            },
+            {
+              "stickerId": "2",
+              "name": "Emiliano Martinez",
+              "cant": "0"
+            },
+            {
+              "stickerId": "3",
+              "name": "Nicolas Tagliafico",
+              "cant": "0"
+            },
+            {
+              "stickerId": "4",
+              "name": "Nicolas Otamendi",
+              "cant": "0"
+            },
+            {
+              "stickerId": "5",
+              "name": "Cristian Romero",
+              "cant": "0"
+            },
+            {
+              "stickerId": "6",
+              "name": "Gonzalo Montiel",
+              "cant": "0"
+            },
+            {
+              "stickerId": "7",
+              "name": "Leandro Paredes",
+              "cant": "0"
+            },
+            {
+              "stickerId": "8",
+              "name": "Rodrigo De Paul",
+              "cant": "9"
+            },
+            {
+              "stickerId": "9",
+              "name": "Giovani Lo Celso",
+              "cant": "0"
+            },
+            {
+              "stickerId": "10",
+              "name": "Liones Messi",
+              "cant": "0"
+            },
+            {
+              "stickerId": "11",
+              "name": "Angel Di Maria",
+              "cant": "0"
+            },
+            {
+              "stickerId": "12",
+              "name": "Lautaro Martinez",
+              "cant": "0"
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "name": "Brasil",
+          "items": [
+            {
+              "stickerId": "1",
+              "name": "Escudo",
+              "cant": "0"
+            },
+            {
+              "stickerId": "2",
+              "name": "Ederson",
+              "cant": "0"
+            },
+            {
+              "stickerId": "3",
+              "name": "Alex Sandro",
+              "cant": "0"
+            },
+            {
+              "stickerId": "4",
+              "name": "Eder Militao",
+              "cant": "0"
+            },
+            {
+              "stickerId": "5",
+              "name": "Marquinhos",
+              "cant": "0"
+            },
+            {
+              "stickerId": "6",
+              "name": "Thiago Silva",
+              "cant": "0"
+            },
+            {
+              "stickerId": "7",
+              "name": "Casemiro",
+              "cant": "0"
+            },
+            {
+              "stickerId": "8",
+              "name": "Fred",
+              "cant": "9"
+            },
+            {
+              "stickerId": "9",
+              "name": "Antony",
+              "cant": "0"
+            },
+            {
+              "stickerId": "10",
+              "name": "Neymar Jr",
+              "cant": "0"
+            },
+            {
+              "stickerId": "11",
+              "name": "Richarlison",
+              "cant": "0"
+            },
+            {
+              "stickerId": "12",
+              "name": "Vinicius Jr",
+              "cant": "0"
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "name": "Portugal",
+          "items": [
+            {
+              "stickerId": "1",
+              "name": "Escudo",
+              "cant": "0"
+            },
+            {
+              "stickerId": "2",
+              "name": "Diogo Costa",
+              "cant": "0"
+            },
+            {
+              "stickerId": "3",
+              "name": "Joao Cancelo",
+              "cant": "0"
+            },
+            {
+              "stickerId": "4",
+              "name": "Jose Fonte",
+              "cant": "0"
+            },
+            {
+              "stickerId": "5",
+              "name": "Pepe",
+              "cant": "0"
+            },
+            {
+              "stickerId": "6",
+              "name": "Nuno Mendes",
+              "cant": "0"
+            },
+            {
+              "stickerId": "7",
+              "name": "Bernardo Silva",
+              "cant": "0"
+            },
+            {
+              "stickerId": "8",
+              "name": "Bruno Fernandes",
+              "cant": "9"
+            },
+            {
+              "stickerId": "9",
+              "name": "Danilo Pereira",
+              "cant": "0"
+            },
+            {
+              "stickerId": "10",
+              "name": "Cirstiano Ronaldo",
+              "cant": "0"
+            },
+            {
+              "stickerId": "11",
+              "name": "Renato Sanches",
+              "cant": "0"
+            },
+            {
+              "stickerId": "12",
+              "name": "Joao Felix",
+              "cant": "0"
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "name": "Belgica",
+          "items": [
+            {
+              "stickerId": "1",
+              "name": "Escudo",
+              "cant": "0"
+            },
+            {
+              "stickerId": "2",
+              "name": "Thibaut Courtois",
+              "cant": "0"
+            },
+            {
+              "stickerId": "3",
+              "name": "Toby Alderweireld",
+              "cant": "0"
+            },
+            {
+              "stickerId": "4",
+              "name": "Timothy Castagne",
+              "cant": "0"
+            },
+            {
+              "stickerId": "5",
+              "name": "Jan Vertonghen",
+              "cant": "0"
+            },
+            {
+              "stickerId": "6",
+              "name": "Yannick Carrasco",
+              "cant": "0"
+            },
+            {
+              "stickerId": "7",
+              "name": "Kevin De Bruyne",
+              "cant": "0"
+            },
+            {
+              "stickerId": "8",
+              "name": "Thorgan Hazard",
+              "cant": "9"
+            },
+            {
+              "stickerId": "9",
+              "name": "Axel Witsel",
+              "cant": "0"
+            },
+            {
+              "stickerId": "10",
+              "name": "Eden Hazard",
+              "cant": "0"
+            },
+            {
+              "stickerId": "11",
+              "name": "Romero Lukaku",
+              "cant": "0"
+            },
+            {
+              "stickerId": "12",
+              "name": "Dries Mertens",
+              "cant": "0"
+            }
+          ]
+        }
+      ],
+    "dashboard": {
+      "obtaineds": 0,
+      "missings": 48,
+      "total": 48
+    }
+  }
+}
