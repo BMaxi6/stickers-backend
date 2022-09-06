@@ -1,7 +1,6 @@
 const fs = require('fs');
-const stickers = require('./stickers-countries.json')
 const path = 'src/stickers-countries.json'
-const stickersFull = require('./stickers-full-countries.json')
+const pathStickersFull = 'src/stickers-full-countries.json'
 const bodyParser = require('body-parser')
 var cors = require('cors')
 
@@ -25,12 +24,24 @@ app.use(bodyParser.json())
 //Request
 app.get('/', (req, res) => {    
     res.header("Content-Type",'application/json');
-    res.send(JSON.stringify(stickers));
+    try {
+        const file = fs.readFileSync(path);
+        res.send(JSON.parse(file));
+    } catch(err) {
+        console.error(err);
+        res.status(400).send('FILE CAN\'T BE READ')
+    }
 })
 
 app.get('/full-obj', (req, res) => {    
     res.header("Content-Type",'application/json');
-    res.send(JSON.stringify(stickersFull));
+    try {
+        const file = fs.readFileSync(pathStickersFull);
+        res.send(JSON.parse(file));
+    } catch(err) {
+        console.error(err);
+        res.status(400).send('FILE CAN\'T BE READ')
+    }
 })
 
 app.post('/save', (req, res) => {
@@ -40,6 +51,21 @@ app.post('/save', (req, res) => {
     })
     try {
         fs.writeFileSync(path, objJs);
+        console.log("File written successfully");
+        res.send('POST saved')
+    } catch(err) {
+        console.error(err);
+        res.status(400).send('POST CAN\'T BE SAVED')
+    }
+})
+
+app.post('/save-full-obj', (req, res) => {
+    let objJs = JSON.stringify({
+        countries: req.body.countries,
+        dashboard: req.body.dashboard
+    })
+    try {
+        fs.writeFileSync(pathStickersFull, objJs);
         console.log("File written successfully");
         res.send('POST saved')
     } catch(err) {
